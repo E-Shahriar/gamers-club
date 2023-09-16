@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.h-items, .b-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+}
+.h-left{
+    display: flex;
+    align-items: center;
+}
+.h-left span{
+    color: rgb(251, 145, 58);
+}
+.h-left img{
+    width: 30%;
+    height: 40%;
+    margin-right: 10px;
+}
+.h-right{
+    display: flex;
+    align-items: center;
+}
+.h-right p{
+    margin-left: 20px;
+}
+
+.banner{
+    background-color: rgb(249, 249, 241);
+}
+.b-left h1{
+    font-size: 40px;
+}
+.b-left p{
+    font-size: 15px;
+}
+.b-left .btn{
+    border: 0;
+    margin: 0;
+    background-color: rgb(251, 145, 58);
+    color: aliceblue;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+.b-left .btn-2{
+    border: 0;
+    margin: 0;
+    background-color: rgb(52, 219, 10);
+    color: aliceblue;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+.b-right img{
+    width: 500px;
+}
+
+.gallary {
+    margin: 50px 0 ;
+}
+.g-item{
+    text-align: center;
+}
+.g-item span{
+    color: rgb(234, 138, 29);
+}
+.images{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 30px 10%;
+    justify-content: space-between;
+}
+.images .img{
+    width: 230px;
+}
+.g-item img{
+    width: 220px;
+    height: auto;
+    margin: 0 10px;
+}
+
+
+
+.p-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+}
+.p-left{
+    width: 300px;
+    margin: auto;
+    text-align: right;
+}
+.p-left span{
+    color: rgb(234, 138, 29);
+}
+.p-right .p-1 {
+    width: 400px;
+}
+
+
+
+.options{
+    background-color: aliceblue;
+}
+.o-items{
+    margin: 50px 10%;
+    padding: 50px 0;
+}
+.top-5{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+}
+.next-4{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+}
+.g-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 10px 10px;
+    padding: 0 10px;
+    border-radius: 30px;
+}
+.g-name:hover {
+    outline: 2px solid rgb(234, 138, 29);
+    color: rgb(234, 138, 29);
+}
+.g-name img{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
