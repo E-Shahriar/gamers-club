@@ -1,0 +1,105 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+    .header{
+        text-align: center;
+        margin: 50px 0;
+    }
+    .h-items, .b-items{
+        display: block;
+    }
+    .h-items .h-left{
+        display: block;
+    }
+    .h-left img {
+        margin: 0;
+    }
+    .h-items .h-right{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .h-right p{
+        margin: 10px 0;
+    }
+
+    .banner{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .b-right img{
+        width: 400px;
+    }
+
+    
+    .images{
+        display: block;
+    }
+    .images .img{
+        width: 400px;
+        margin: auto;
+    }
+    .g-item img{
+        width: 360px;
+    }
+
+
+    .p-items{
+        display: block;
+    }
+    .p-left{
+        text-align: center;
+    }
+    .p-right .p-img{
+        text-align: center;
+    }
+
+
+    .o-items{
+        margin: 50px 5%;
+    }
+
+    .invisible{
+        display: none;
+    }
+    .g-name{
+        margin: 10px 5px;
+        padding: 7px 7px;
+    }
+    .g-name h4{
+        font-size: 10px;
+    }
+
+
+    .f-links{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+    }
+    .f-links a{
+        margin: 10px 15px;
+    }
+    .f-medea {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+    }
+    .f-medea img{
+        margin: 30px;
+    }
+    .f-policy{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+    }
+    .f-policy a{
+        margin: 20px 0;
+    }
+
+
+    .copy-right{
+        display: block;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}

@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .h-items, .b-items{
     display: flex;
@@ -12,7 +13,7 @@ body{
     display: flex;
     align-items: center;
 }
-.h-left span{
+span{
     color: rgb(251, 145, 58);
 }
 .h-left img{
@@ -63,9 +64,6 @@ body{
 .g-item{
     text-align: center;
 }
-.g-item span{
-    color: rgb(234, 138, 29);
-}
 .images{
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -94,9 +92,7 @@ body{
     margin: auto;
     text-align: right;
 }
-.p-left span{
-    color: rgb(234, 138, 29);
-}
+
 .p-right .p-1 {
     width: 400px;
 }
@@ -110,6 +106,7 @@ body{
     margin: 50px 10%;
     padding: 50px 0;
 }
+
 .top-5{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
@@ -122,7 +119,7 @@ body{
 }
 .g-name{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     background-color: white;
     margin: 10px 10px;
@@ -137,4 +134,60 @@ body{
     width: 40px;
     height: 40px;
     margin-right: 5px;
+}
+
+
+
+.footer{
+    background-color: rgb(55, 3, 55);
+    text-align: center;
+    padding: 50px 0;
+}
+.f-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.f-title img{
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+}
+.f-title h2{
+    color: white;
+}
+.f-items a {
+    text-decoration: none;
+}
+.f-links a {
+    font-size: 20px;
+    color: white;
+    margin: 0 15px;
+}
+.f-medea{
+    margin: 30px 0;
+}
+.f-medea img{
+    width: 40px;
+    height: 40px;
+    border-radius: 15%;
+    margin: 10px;
+}
+.f-medea img:hover{
+    outline: 2px solid rgb(179, 199, 200);
+}
+.f-policy a{
+    font-size: 17px;
+    color: rgb(186, 186, 186);
+    margin: 0 15px;
+}
+.copy-right{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.copy-right p {
+    font-size: 15px;
+    color: rgb(180, 175, 175);
 }
