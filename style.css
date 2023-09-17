@@ -27,13 +27,28 @@ span{
 }
 .h-right p{
     margin-left: 20px;
+    margin-right: 5px;
+}
+.h-logo{
+    display: flex;
+    align-items: center;
+}
+.h-logo img{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
 }
 
 .banner{
     background-color: rgb(249, 249, 241);
 }
+
+.b-left h2{
+    font-size: 30px;
+}
 .b-left h1{
-    font-size: 40px;
+    font-size: 60px;
+    color: rgb(251, 145, 58);
 }
 .b-left p{
     font-size: 15px;

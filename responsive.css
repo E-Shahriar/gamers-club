@@ -1,4 +1,4 @@
-@media only screen and (min-width: 300px) and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
     .header{
         text-align: center;
         margin: 50px 0;
@@ -26,6 +26,7 @@
         padding-top: 30px;
     }
     .b-right img{
+        margin-top: 50px;
         width: 300px;
     }
 
@@ -34,11 +35,11 @@
         display: block;
     }
     .images .img{
-        width: 400px;
+        width: 300px;
         margin: auto;
     }
     .g-item img{
-        width: 360px;
+        width: 250px;
     }
 
 
@@ -46,10 +47,14 @@
         display: block;
     }
     .p-left{
+        width: 300px;
         text-align: center;
     }
     .p-right .p-img{
         text-align: center;
+    }
+    .p-right .p-1 {
+        width: 280px;
     }
 
 
@@ -100,12 +105,110 @@
     }
 }
 
+@media only screen and (min-width: 701px) and (max-width: 1150px) {
+    .header{
+        text-align: center;
+        margin: 50px 0;
+    }
+    .h-items, .b-items{
+        display: block;
+    }
+    .h-items .h-left{
+        display: block;
+    }
+    .h-left img {
+        margin: 0;
+    }
+    .h-items .h-right{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .h-right p{
+        margin: 10px 0;
+    }
 
-@media only screen and (min-width: 901px) and (max-width: 1100px){
+    .banner{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .b-right img{
+        margin-top: 50px;
+        width: 420px;
+    }
+
+    
+    .images{
+        display: block;
+    }
     .images .img{
-        width: 200px;
+        width: 400px;
+        margin: auto;
     }
     .g-item img{
-        width: 190px;
+        width: 370px;
+    }
+
+
+    .p-items{
+        display: block;
+    }
+    .p-left{
+        width: 400px;
+        text-align: center;
+    }
+    .p-right .p-img{
+        text-align: center;
+    }
+    .p-right .p-1 {
+        width: 400px;
+    }
+
+
+    .o-items{
+        margin: 50px 5%;
+    }
+
+    .invisible{
+        display: none;
+    }
+    .g-name{
+        margin: 10px 5px;
+        padding: 7px 7px;
+    }
+    .g-name h4{
+        font-size: 10px;
+    }
+
+
+    .f-links{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+    }
+    .f-links a{
+        margin: 10px 15px;
+    }
+    .f-medea {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+    }
+    .f-medea img{
+        margin: 30px;
+    }
+    .f-policy{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+    }
+    .f-policy a{
+        margin: 20px 0;
+    }
+
+
+    .copy-right{
+        display: block;
     }
 }
+
